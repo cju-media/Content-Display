@@ -2,8 +2,8 @@
     "name": "Content-Display",
     "version": 1,
     "creationdate": 3851115631,
-    "modificationdate": 3851573868,
-    "viewrect": [ 741.0, 337.0, 300.0, 474.0 ],
+    "modificationdate": 3851710387,
+    "viewrect": [ 787.0, 463.0, 300.0, 474.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -22,6 +22,10 @@
                 "kind": "patcher",
                 "local": 1,
                 "toplevel": 1
+            },
+            "sendToAppDirectory.maxpat": {
+                "kind": "patcher",
+                "local": 1
             }
         },
         "code": {
