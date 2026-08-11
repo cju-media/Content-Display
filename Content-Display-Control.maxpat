@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 54.0, 363.0, 318.0, 136.0 ],
+        "rect": [ 47.0, 343.0, 317.0, 122.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 15,
         "boxes": [
@@ -525,7 +525,7 @@
                     "patching_rect": [ 531.0, 257.0, 64.0, 47.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
-                    "presentation_rect": [ 61.0, 44.0, 89.0, 33.0 ],
+                    "presentation_rect": [ 49.0, 39.0, 89.0, 33.0 ],
                     "text": "Hard Reset Monitors"
                 }
             },
@@ -996,8 +996,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 165.0, 300.0, 123.0, 22.0 ],
-                    "text": "killall Content-Display"
+                    "patching_rect": [ 165.0, 300.0, 131.0, 22.0 ],
+                    "text": "killall \"Content Display\""
                 }
             },
             {
@@ -1007,8 +1007,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 26.0, 384.0, 138.0, 22.0 ],
-                    "text": "open -a Content-Display"
+                    "patching_rect": [ 26.0, 384.0, 146.0, 22.0 ],
+                    "text": "open -a \"Content Display\""
                 }
             },
             {
@@ -1033,7 +1033,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 52.0, 260.0, 93.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 61.0, 18.0, 92.0, 20.0 ],
+                    "presentation_rect": [ 48.0, 17.0, 92.0, 20.0 ],
                     "text": "Reset Playback"
                 }
             },
