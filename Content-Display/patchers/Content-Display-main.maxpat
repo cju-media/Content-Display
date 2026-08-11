@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 56.0, 183.0, 317.0, 140.0 ],
+        "rect": [ 56.0, 183.0, 299.0, 124.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 15,
         "title": "Content Display",
@@ -2060,7 +2060,7 @@
                                     "presentation_linecount": 2,
                                     "presentation_rect": [ 206.0, 98.0, 146.0, 36.0 ],
                                     "tabmode": 0,
-                                    "text": "Join us for Coffee Hour in Mayflower Courtyard!"
+                                    "text": "\"Join us for Coffee Hour in Mayflower Courtyard!\""
                                 }
                             },
                             {
@@ -10928,7 +10928,7 @@
                     "patching_rect": [ 380.0, 430.0, 67.0, 22.0 ],
                     "saved_object_attributes": {
                         "allwindowsactive": 0,
-                        "appicon_mac": "Macintosh HD:/Users/c/Documents/Programming/Content-Display/content-display.icns",
+                        "appicon_mac": "Macintosh HD:/Users/c/Documents/Programming/Content-Display/Max.icns",
                         "appicon_win": "",
                         "audiosupport": 1,
                         "bundleidentifier": "com.cjumedia",
