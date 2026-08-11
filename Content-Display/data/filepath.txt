@@ -1,1 +1,1 @@
-0, "Macintosh HD:/Users/c/Downloads/give today!-7/";1, "Macintosh HD:/Users/c/Downloads/give today!-7/";2, "Macintosh HD:/Users/c/Downloads/give today!-3/";3, "Macintosh HD:/Users/c/Library/Mobile Documents/com~apple~CloudDocs/FCCLA/Stream Videos/Saints Day/";CH, "Join Us for Coffee Hour in Mayflower Courtyard";position, 0.242 0.646;line_length, 850.;fontsize, 53.;gl_color, 1. 1. 1.;fontname, Helvetica;erase_color, 0.17079 0.549438 1. 1.;
+erase_color, 0. 1. 0. 1.;CH, "Join us for Coffee Hour in Mayflower Courtyard!";

@@ -2,7 +2,7 @@
     "name": "Content-Display",
     "version": 1,
     "creationdate": 3851115631,
-    "modificationdate": 3851710387,
+    "modificationdate": 3869091054,
     "viewrect": [ 787.0, 463.0, 300.0, 474.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -28,6 +28,7 @@
                 "local": 1
             }
         },
+        "media": {        },
         "code": {
             "FF_Utilities.js": {
                 "kind": "javascript",
@@ -49,11 +50,23 @@
             }
         },
         "externals": {
-            "jit.gl.syphonserver.mxo": {
+            "jit.rtmp.send~.mxo": {
+                "kind": "object",
+                "local": 1
+            },
+            "jit.rtmp.server.mxo": {
                 "kind": "object",
                 "local": 1
             },
             "shell.mxo": {
+                "kind": "object",
+                "local": 1
+            },
+            "jit.gl.syphonserver.mxo": {
+                "kind": "object",
+                "local": 1
+            },
+            "jit.ndi.send~.mxo": {
                 "kind": "object",
                 "local": 1
             }

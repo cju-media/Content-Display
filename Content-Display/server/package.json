@@ -1,0 +1,13 @@
+{
+  "name": "content-display-control-server",
+  "version": "1.0.0",
+  "description": "Small LAN-accessible server for remotely editing erase_color and coffee hour text, read by the Content Display Max patch via maxurl.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
