@@ -2,8 +2,8 @@
     "name": "Content-Display",
     "version": 1,
     "creationdate": 3851115631,
-    "modificationdate": 3869091054,
-    "viewrect": [ 787.0, 463.0, 300.0, 474.0 ],
+    "modificationdate": 3869777657,
+    "viewrect": [ 980.0, 673.0, 300.0, 474.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -28,7 +28,6 @@
                 "local": 1
             }
         },
-        "media": {        },
         "code": {
             "FF_Utilities.js": {
                 "kind": "javascript",
@@ -41,15 +40,31 @@
             "jitpolymovie.js": {
                 "kind": "javascript",
                 "local": 1
+            },
+            "server.js": {
+                "kind": "javascript",
+                "local": 1
             }
         },
         "data": {
             "filepath.txt": {
                 "kind": "textfile",
                 "local": 1
+            },
+            "state.json": {
+                "kind": "json",
+                "local": 1
+            },
+            "package.json": {
+                "kind": "json",
+                "local": 1
             }
         },
         "externals": {
+            "jit.ndi.send~.mxo": {
+                "kind": "object",
+                "local": 1
+            },
             "jit.rtmp.send~.mxo": {
                 "kind": "object",
                 "local": 1
@@ -65,10 +80,28 @@
             "jit.gl.syphonserver.mxo": {
                 "kind": "object",
                 "local": 1
+            }
+        },
+        "other": {
+            ".gitignore": {
+                "kind": "file",
+                "local": 1,
+                "singleton": {
+                    "bootpath": "~/Documents/Programming/Content-Display/Content-Display/server",
+                    "projectrelativepath": "./server"
+                }
             },
-            "jit.ndi.send~.mxo": {
-                "kind": "object",
+            "index.html": {
+                "kind": "webpage",
                 "local": 1
+            },
+            "README.md": {
+                "kind": "file",
+                "local": 1,
+                "singleton": {
+                    "bootpath": "~/Documents/Programming/Content-Display/Content-Display/server",
+                    "projectrelativepath": "./server"
+                }
             }
         }
     },
