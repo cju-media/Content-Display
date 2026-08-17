@@ -1,1 +1,1 @@
-erase_color, 0. 1. 0. 1.;CH, "Join us for Coffee Hour in Mayflower Courtyard!";
+erase_color, 0. 0. 0. 0.;CH, "Join us for Coffee Hour in Mayflower Courtyard!";0, "Macintosh HD:/Users/c/Library/Mobile Documents/com~apple~CloudDocs/FCCLA/Stream Videos/Outside Videos/";1, "Macintosh HD:/Users/c/Library/Mobile Documents/com~apple~CloudDocs/FCCLA/Stream Videos/Saints Day/";

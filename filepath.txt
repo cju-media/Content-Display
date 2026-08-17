@@ -1,0 +1,9 @@
+0, "Untitled 2:/Users/soundteam/Library/CloudStorage/GoogleDrive-first.church.la@gmail.com/My Drive/Preroll and Ads/Preroll and Event Ads/Events_Ads/";
+1, "Untitled 2:/Users/soundteam/Library/CloudStorage/GoogleDrive-first.church.la@gmail.com/My Drive/Preroll and Ads/Preroll and Event Ads/Sizzle Vids-Images/";
+2, "Untitled 2:/Users/soundteam/Library/CloudStorage/GoogleDrive-first.church.la@gmail.com/My Drive/Preroll and Ads/Preroll and Event Ads/Wedding/";
+3, "Untitled 2:/Users/soundteam/Library/CloudStorage/GoogleDrive-first.church.la@gmail.com/My Drive/Preroll and Ads/Preroll and Event Ads/Events/";
+erase_color, 0.129502 0.731959 0.041861 1.;
+CH, "Join Us in Celebrating David and Laurel in Barnum Room";
+fontname, "Helvetica Neue Thin";
+gl_color, 0.984314 0.945098 1.;
+
