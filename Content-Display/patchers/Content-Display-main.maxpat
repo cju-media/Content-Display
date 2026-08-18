@@ -172,13 +172,14 @@
             {
                 "box": {
                     "id": "obj-86",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 432.0, 658.0, 225.0, 20.0 ],
+                    "patching_rect": [ 432.0, 658.0, 225.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 75.5, 108.0, 225.0, 20.0 ],
-                    "text": "rtmp://192.168.5.63/live/content-display"
+                    "presentation_rect": [ 76.0, 108.0, 246.0, 20.0 ],
+                    "text": "rtmp://192.168.112.244/live/content-display"
                 }
             },
             {
@@ -6493,7 +6494,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 543.9202423095703, 387.5, 29.5, 22.0 ],
-                                                    "text": "4"
+                                                    "text": "0"
                                                 }
                                             },
                                             {
@@ -6680,7 +6681,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 164.9202423095703, 392.5, 29.5, 22.0 ],
-                                                    "text": "20"
+                                                    "text": "1"
                                                 }
                                             },
                                             {

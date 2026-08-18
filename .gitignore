@@ -1,0 +1,5 @@
+# Not committed - GitHub rejects it outright once it's the universal
+# (arm64 + x86_64) build (100MB+, over GitHub's 100MB non-LFS push limit).
+# See the "externals/" note in README.md for how to get it back after a
+# fresh clone.
+Content-Display/externals/jit.rtmp.server.mxo/Contents/Resources/mediamtx
