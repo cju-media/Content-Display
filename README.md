@@ -57,8 +57,27 @@ Content-Display/
 
 - Max 9 (patch was authored/saved with Max 9.1.2).
 - The bundled externals in `externals/` (already included — no separate
-  install needed).
+  install needed), **except** `jit.rtmp.server`'s bundled `mediamtx` binary
+  — see the note below.
 - Node.js 18+ if you want to run the remote control server.
+- `jit.rtmp.send~`/`jit.rtmp.server` link against FFmpeg by absolute,
+  per-architecture path — a machine actually *running* the standalone needs
+  its own matching-architecture Homebrew FFmpeg install too (`/opt/homebrew`
+  on Apple Silicon, `/usr/local` on Intel: `brew install ffmpeg`). See
+  [jit.rtmp's README](https://github.com/cju-media/jit.rtmp#running-a-universal-build-on-another-machine)
+  for details if externals fail to load with an architecture or "couldn't be
+  loaded" error.
+
+**`externals/jit.rtmp.server.mxo`'s bundled `mediamtx` binary isn't
+committed to this repo** — once built universal (arm64 + x86_64) it's
+100MB+, over GitHub's 100MB push limit for a plain (non-LFS) file. After a
+fresh clone, `jit.rtmp.server` won't have a server binary to launch until
+you either:
+- copy one in from a [jit.rtmp](https://github.com/cju-media/jit.rtmp)
+  build, at `build/jit.rtmp/externals/jit.rtmp.server.mxo/Contents/Resources/mediamtx`
+  (built via `./scripts/build-universal.sh` there for a universal copy), or
+- install your own [mediamtx](https://github.com/bluenviron/mediamtx) and
+  point `jit.rtmp.server`'s `@mediamtx_path` attribute at it instead.
 
 ## Opening the project
 

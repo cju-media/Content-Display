@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/mediamtx</key>
 		<data>
-		OT+UGL5Obvz1R3PDckdWY2q+6XM=
+		WVqbn2RglGYTRDI5BFjZtzd0i4o=
 		</data>
 		<key>Resources/mediamtx.yml</key>
 		<data>
@@ -21,6 +21,10 @@
 	<dict>
 		<key>Resources/LICENSE</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			X8NlhlImyU1VKI7jN7bDUeo4p2Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			7K5zsKIxhaNaEiLtwKrlJFu5c5QgutASWwxC6TUwGoA=
@@ -28,13 +32,21 @@
 		</dict>
 		<key>Resources/mediamtx</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WVqbn2RglGYTRDI5BFjZtzd0i4o=
+			</data>
 			<key>hash2</key>
 			<data>
-			uliBXfkGITxyiXThXkhcAXn1JM2BQ9tLx5r2jvQ/+jk=
+			6Ox7QLhuxotde8A03t1zLjgzuAHSLWY0ynnx6zHMm+Y=
 			</data>
 		</dict>
 		<key>Resources/mediamtx.yml</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WXgM7KFGYyH+y1dBIXkkdBhci3A=
+			</data>
 			<key>hash2</key>
 			<data>
 			08mY8eAPssXJG9PS2yMcwzzRgc9yzTV68KjqjmSmXbs=

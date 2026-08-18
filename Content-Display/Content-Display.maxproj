@@ -2,8 +2,8 @@
     "name": "Content-Display",
     "version": 1,
     "creationdate": 3851115631,
-    "modificationdate": 3869777657,
-    "viewrect": [ 980.0, 673.0, 300.0, 474.0 ],
+    "modificationdate": 3869926676,
+    "viewrect": [ 309.0, 279.0, 300.0, 474.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
     "showdependencies": 1,
@@ -56,8 +56,7 @@
                 "local": 1
             },
             "package.json": {
-                "kind": "json",
-                "local": 1
+                "kind": "json"
             }
         },
         "externals": {
@@ -85,23 +84,13 @@
         "other": {
             ".gitignore": {
                 "kind": "file",
-                "local": 1,
-                "singleton": {
-                    "bootpath": "~/Documents/Programming/Content-Display/Content-Display/server",
-                    "projectrelativepath": "./server"
-                }
-            },
-            "index.html": {
-                "kind": "webpage",
                 "local": 1
             },
+            "index.html": {
+                "kind": "webpage"
+            },
             "README.md": {
-                "kind": "file",
-                "local": 1,
-                "singleton": {
-                    "bootpath": "~/Documents/Programming/Content-Display/Content-Display/server",
-                    "projectrelativepath": "./server"
-                }
+                "kind": "file"
             }
         }
     },
