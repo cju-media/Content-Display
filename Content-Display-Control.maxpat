@@ -9,11 +9,140 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 20.0, 102.0, 376.0, 127.0 ],
+        "rect": [ 25.0, 77.0, 366.0, 133.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 15,
         "title": "Content Display Control",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 19.0, 473.0, 165.0, 22.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 160.0, 83.0, 189.0, 22.0 ],
+                    "text": "Open Vertical Stream Control"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-84",
+                    "linecount": 2,
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 19.0, 505.0, 223.0, 35.0 ],
+                    "presentation_linecount": 2,
+                    "text": ";\rmax launchbrowser http://localhost:4200"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-80",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1120.0, 817.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-47",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 1165.0, 649.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-48",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1080.0, 935.0, 32.0, 22.0 ],
+                    "text": "print"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-49",
+                    "linecount": 3,
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1165.0, 675.0, 334.0, 49.0 ],
+                    "presentation_linecount": 5,
+                    "text": "/usr/local/bin/node /Users/soundteam/Documents/FCCLA-Shorts-Stream/atem-status-server/server.js"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 1120.0, 789.0, 48.0, 22.0 ],
+                    "text": "del 500"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1120.0, 863.0, 38.0, 22.0 ],
+                    "text": "zl.reg"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-66",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "" ],
+                    "patching_rect": [ 1170.0, 760.0, 29.5, 22.0 ],
+                    "text": "t b l"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-67",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1170.0, 863.0, 29.5, 22.0 ],
+                    "text": "pkill"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-71",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "patching_rect": [ 1080.0, 911.0, 33.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "shell": "(default)"
+                    },
+                    "text": "shell"
+                }
+            },
             {
                 "box": {
                     "id": "obj-39",
@@ -450,7 +579,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 19.0, 797.0, 119.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 160.0, 84.0, 119.0, 22.0 ],
+                    "presentation_rect": [ 21.0, 105.0, 119.0, 22.0 ],
                     "text": "Open Server Control"
                 }
             },
@@ -459,8 +588,8 @@
                     "id": "obj-31",
                     "maxclass": "newobj",
                     "numinlets": 0,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
                     "patcher": {
                         "fileversion": 1,
                         "appversion": {
@@ -471,11 +600,47 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 52.0, 292.0, 208.0, 126.0 ],
+                        "rect": [ 1094.0, 621.0, 686.0, 489.0 ],
                         "openinpresentation": 1,
                         "toolbars_unpinned_last_save": 15,
                         "title": "Server Control",
                         "boxes": [
+                            {
+                                "box": {
+                                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                                    "bgcolor2": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                                    "bgfillcolor_angle": 270.0,
+                                    "bgfillcolor_autogradient": 0.0,
+                                    "bgfillcolor_color": [ 0.8705882352941177, 0.058823529411764705, 0.058823529411764705, 1.0 ],
+                                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                                    "bgfillcolor_color2": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                                    "bgfillcolor_proportion": 0.5,
+                                    "bgfillcolor_type": "color",
+                                    "gradient": 1,
+                                    "id": "obj-8",
+                                    "linecount": 2,
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 553.0, 100.0, 128.0, 35.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 553.0, 99.0, 170.0, 22.0 ],
+                                    "text": "Reset Vertical Stream Control",
+                                    "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
+                                }
+                            },
+                            {
+                                "box": {
+                                    "comment": "",
+                                    "id": "obj-9",
+                                    "index": 4,
+                                    "maxclass": "outlet",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 553.0, 182.0, 30.0, 30.0 ]
+                                }
+                            },
                             {
                                 "box": {
                                     "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
@@ -672,6 +837,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-29", 0 ],
                                     "source": [ "obj-80", 0 ]
                                 }
@@ -684,7 +855,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 307.0, 524.0, 85.0, 22.0 ],
+                    "patching_rect": [ 345.0, 526.0, 823.0, 22.0 ],
                     "text": "p ServerReset"
                 }
             },
@@ -1467,7 +1638,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
-                    "patching_rect": [ 26.0, 478.0, 33.0, 22.0 ],
+                    "patching_rect": [ 26.0, 429.0, 33.0, 22.0 ],
                     "saved_object_attributes": {
                         "shell": "(default)"
                     },
@@ -1831,6 +2002,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-49", 0 ],
+                    "source": [ "obj-31", 3 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-52", 0 ],
                     "source": [ "obj-31", 2 ]
                 }
@@ -1856,7 +2033,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-3", 0 ],
-                    "midpoints": [ 174.5, 473.5, 35.5, 473.5 ],
+                    "midpoints": [ 174.5, 418.67578125, 35.5, 418.67578125 ],
                     "source": [ "obj-34", 0 ]
                 }
             },
@@ -1933,8 +2110,26 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-49", 0 ],
+                    "source": [ "obj-47", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-66", 0 ],
+                    "source": [ "obj-49", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-80", 0 ],
+                    "source": [ "obj-50", 0 ]
                 }
             },
             {
@@ -2038,6 +2233,39 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-65", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-50", 0 ],
+                    "order": 1,
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-65", 1 ],
+                    "midpoints": [ 1190.0, 816.0, 1148.5, 816.0 ],
+                    "source": [ "obj-66", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-67", 0 ],
+                    "order": 0,
+                    "source": [ "obj-66", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-67", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-52", 0 ],
                     "source": [ "obj-68", 0 ]
                 }
@@ -2052,6 +2280,12 @@
                 "patchline": {
                     "destination": [ "obj-77", 0 ],
                     "source": [ "obj-70", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-48", 0 ],
+                    "source": [ "obj-71", 0 ]
                 }
             },
             {
@@ -2099,6 +2333,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-65", 0 ],
+                    "source": [ "obj-80", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-82", 0 ],
                     "source": [ "obj-81", 0 ]
                 }
@@ -2107,6 +2347,12 @@
                 "patchline": {
                     "destination": [ "obj-94", 0 ],
                     "source": [ "obj-82", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-84", 0 ],
+                    "source": [ "obj-83", 0 ]
                 }
             },
             {
