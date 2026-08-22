@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 25.0, 77.0, 366.0, 133.0 ],
+        "rect": [ 26.0, 72.0, 365.0, 154.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 15,
         "title": "Content Display Control",
@@ -36,7 +36,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 19.0, 505.0, 223.0, 35.0 ],
-                    "presentation_linecount": 2,
                     "text": ";\rmax launchbrowser http://localhost:4200"
                 }
             },
@@ -81,7 +80,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1165.0, 675.0, 334.0, 49.0 ],
-                    "presentation_linecount": 5,
                     "text": "/usr/local/bin/node /Users/soundteam/Documents/FCCLA-Shorts-Stream/atem-status-server/server.js"
                 }
             },
@@ -220,222 +218,6 @@
             },
             {
                 "box": {
-                    "id": "obj-41",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 901.0, 1047.0, 159.0, 22.0 ],
-                    "text": "r openContentDisplayServer"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-46",
-                    "linecount": 2,
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 901.0, 1076.0, 223.0, 35.0 ],
-                    "text": ";\rmax launchbrowser http://localhost:1031"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-157",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1298.0, 1203.0, 53.0, 22.0 ],
-                    "text": "s chText"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-156",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1310.0, 1174.0, 97.0, 22.0 ],
-                    "text": "changeMessage"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-155",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1143.0, 1203.0, 31.0, 22.0 ],
-                    "text": "s ec"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-151",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 1312.0, 973.0, 126.0, 22.0 ],
-                    "text": "metro 1000 @active 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-150",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 1143.0, 973.0, 126.0, 22.0 ],
-                    "text": "metro 1000 @active 1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-149",
-                    "maxclass": "button",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1191.0, 1202.0, 24.0, 24.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-147",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1143.0, 1168.0, 97.0, 22.0 ],
-                    "text": "changeMessage"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-145",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 1143.0, 1002.0, 55.0, 22.0 ],
-                    "text": "del 1000"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-144",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "patching_rect": [ 1312.0, 1010.0, 55.0, 22.0 ],
-                    "text": "del 1000"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-135",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1310.0, 1147.0, 66.0, 22.0 ],
-                    "text": "string.tolist"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-138",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 1312.0, 1117.0, 102.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "legacy": 0
-                    },
-                    "text": "dict.unpack body:"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-140",
-                    "linecount": 3,
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1312.0, 1035.0, 145.0, 49.0 ],
-                    "text": "get http://127.0.0.1:1031/max/coffee-hour"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-141",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "dictionary", "" ],
-                    "patching_rect": [ 1312.0, 1090.0, 45.0, 22.0 ],
-                    "text": "maxurl"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-132",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1143.0, 1143.0, 66.0, 22.0 ],
-                    "text": "string.tolist"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-125",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 1143.0, 1116.0, 102.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "legacy": 0
-                    },
-                    "text": "dict.unpack body:"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-122",
-                    "linecount": 3,
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1143.0, 1035.0, 122.0, 49.0 ],
-                    "text": "get http://127.0.0.1:1031/max/erase-color"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-120",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "dictionary", "" ],
-                    "patching_rect": [ 1143.0, 1089.0, 45.0, 22.0 ],
-                    "text": "maxurl"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-51",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -452,8 +234,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 965.0, 667.0, 135.0, 62.0 ],
-                    "text": "/usr/local/bin/node /Users/soundteam/Documents/Content-Display/server.js"
+                    "patching_rect": [ 965.0, 667.0, 161.0, 62.0 ],
+                    "text": "/usr/local/bin/node /Users/soundteam/Documents/Content-Display/server/server.js"
                 }
             },
             {
@@ -600,7 +382,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1094.0, 621.0, 686.0, 489.0 ],
+                        "rect": [ 405.0, 67.0, 230.0, 171.0 ],
                         "openinpresentation": 1,
                         "toolbars_unpinned_last_save": 15,
                         "title": "Server Control",
@@ -625,7 +407,7 @@
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 553.0, 100.0, 128.0, 35.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 553.0, 99.0, 170.0, 22.0 ],
+                                    "presentation_rect": [ 12.0, 116.0, 170.0, 22.0 ],
                                     "text": "Reset Vertical Stream Control",
                                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                                 }
@@ -1791,44 +1573,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-125", 0 ],
-                    "source": [ "obj-120", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-120", 0 ],
-                    "source": [ "obj-122", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-132", 0 ],
-                    "source": [ "obj-125", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-5", 0 ],
                     "source": [ "obj-13", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-147", 0 ],
-                    "source": [ "obj-132", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-156", 0 ],
-                    "source": [ "obj-135", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-135", 0 ],
-                    "source": [ "obj-138", 0 ]
                 }
             },
             {
@@ -1847,64 +1593,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-141", 0 ],
-                    "source": [ "obj-140", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-138", 0 ],
-                    "source": [ "obj-141", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-140", 0 ],
-                    "source": [ "obj-144", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-122", 0 ],
-                    "source": [ "obj-145", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-149", 0 ],
-                    "order": 0,
-                    "source": [ "obj-147", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-155", 0 ],
-                    "order": 1,
-                    "source": [ "obj-147", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-10", 0 ],
                     "source": [ "obj-15", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-145", 0 ],
-                    "source": [ "obj-150", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-144", 0 ],
-                    "source": [ "obj-151", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-157", 0 ],
-                    "source": [ "obj-156", 0 ]
                 }
             },
             {
@@ -2082,12 +1772,6 @@
                 "patchline": {
                     "destination": [ "obj-45", 0 ],
                     "source": [ "obj-40", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-46", 0 ],
-                    "source": [ "obj-41", 0 ]
                 }
             },
             {
