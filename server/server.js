@@ -84,16 +84,24 @@ function sendJSON(res, status, body) {
     'Content-Type': 'application/json',
     'Content-Length': Buffer.byteLength(payload),
     'Access-Control-Allow-Origin': '*',
+    'Connection': 'close',
   });
   res.end(payload);
 }
 
+// `Connection: close` matters here more than it would for a browser client:
+// simple/embedded HTTP clients (e.g. Max's [maxurl]) can mishandle a reused
+// keep-alive socket when polled faster than the round trip, occasionally
+// reading a stale or partial buffer from the previous request. Forcing the
+// server to close after every response means each poll gets a fresh
+// connection, so there's nothing to misread.
 function sendText(res, status, text) {
   res.writeHead(status, {
     'Content-Type': 'text/plain; charset=utf-8',
     'Content-Length': Buffer.byteLength(text),
     'Access-Control-Allow-Origin': '*',
     'Cache-Control': 'no-store',
+    'Connection': 'close',
   });
   res.end(text);
 }
